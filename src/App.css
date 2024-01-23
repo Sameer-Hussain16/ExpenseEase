@@ -17,11 +17,6 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: 30px auto;
-  width: 100%;
-}
-
 .header {
   color: #FFF;
   font-size: 2.5rem;
@@ -57,7 +52,6 @@ body {
   font-weight: 600;
   line-height: 1.875rem;
   margin-left: 2.25rem;
-
 }
 
 .total {
@@ -84,12 +78,11 @@ body {
   display: flex;
   margin-top: -2rem;
   margin-left: 2.25rem;
-  gap: 8rem;
+  gap: 5rem;
 }
 
 
 .money {
-  font-size: 20px;
   letter-spacing: 1px;
   position: relative;
   font-size: 1.5rem;
@@ -97,6 +90,7 @@ body {
   font-weight: 700;
   line-height: 1.5rem;
   margin-top: -1rem;
+
 }
 
 .money.plus {
@@ -233,4 +227,31 @@ label {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+@media (max-width: 515px) {
+  body {
+    margin-left: 130px;
+  }
+
+  .header {
+    font-size: 2rem;
+    margin-bottom: -0.2em;
+  }
+
+  .rectangle {
+    width: 26rem;
+  }
+
+  .input-box {
+    width: 26rem;
+  }
+
+  .btn {
+    width: 26rem;
+  }
+
+  .list li {
+    width: 26rem;
+  } 
 }
