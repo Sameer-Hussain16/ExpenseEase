@@ -15,6 +15,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
+
 }
 
 .header {
@@ -231,27 +232,54 @@ label {
 
 @media (max-width: 515px) {
   body {
-    margin-left: 130px;
+    display: block;
+    margin-left: 16px;
+    margin-right: 16px;
+    overflow-x: hidden;
+  }
+
+  .total {
+    font-size: 2rem;
+  line-height: 3rem;
+
+  }
+
+  .money {
+    font-size: 1.3rem;
+  
   }
 
   .header {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: -0.2em;
   }
 
   .rectangle {
-    width: 26rem;
+    width: 21.5rem;
+  height: 12rem;
+  }
+
+  .inc-exp-container {
+    gap: 3rem;
   }
 
   .input-box {
-    width: 26rem;
+    width: 21.5rem;
   }
 
   .btn {
-    width: 26rem;
+    width: 21.5rem;
   }
 
   .list li {
-    width: 26rem;
+    width: 21.5rem;
   } 
+
+  .delete-btn {
+    transform: translate(-50%, 0%);
+  }
+
+  .list {
+    margin-bottom: 80px;
+  }
 }
